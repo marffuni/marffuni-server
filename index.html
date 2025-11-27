@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Server von Marffuni – Einspruch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo">⚡ Server von Marffuni ⚡</div>
+    <nav class="nav">
+      <a href="#" class="nav-link">Einspruch</a>
+      <a href="#" class="nav-link">Regeln</a>
+      <a href="#" class="nav-link">Support</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 class="glow-text">Einspruch gegen Ban</h1>
+    <p>Reiche hier deinen Einspruch ein – modern, schnell und stylisch.</p>
+  </section>
+
+  <!-- Formular -->
+  <main class="container">
+    <form class="appeal-form" novalidate>
+      <!-- Minecraft Name -->
+      <label for="ign">Minecraft‑Name (IGN) *</label>
+      <input id="ign" name="ign" type="text" required placeholder="Dein Spielername">
+
+      <!-- Ban-Grund Auswahl -->
+      <label for="reason">Ban‑Grund *</label>
+      <select id="reason" name="reason" required>
+        <option value="">Bitte auswählen…</option>
+        <option>Respektloses Verhalten gegenüber anderen Spielern und Störung des Serverfriedens. 
+        Der Spieler hat gezeigt, dass ihm die Gemeinschaft egal ist und damit das Miteinander auf dem Server missachtet.</option>
+        <option>Missachtung der Regeln</option>
+        <option>Spam im Chat</option>
+        <option>Cheating/Hacks</option>
+        <option>Beleidigungen</option>
+        <option>Griefing</option>
+        <option>Werbung für andere Server</option>
+        <option>AFK-Farming</option>
+      </select>
+
+      <!-- Einspruchs-Begründung -->
+      <label for="appeal">Warum legst du Einspruch ein? *</label>
+      <textarea id="appeal" name="appeal" rows="6" required placeholder="Beschreibe hier, warum dein Ban aufgehoben werden sollte…"></textarea>
+
+      <button type="submit" class="btn-neon">🚀 Einspruch senden</button>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© Server von Marffuni • Moderation & Einspruch</p>
+  </footer>
+</body>
+</html>
